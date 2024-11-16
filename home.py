@@ -4,11 +4,10 @@ import streamlit as st
 # from streamlit_lottie import st_lottie  
  
 def Home_page():
- 
-   
-   
+    st.image(r"C:\Users\JUSTINA\Downloads\telco image.jpg")
+
     st.title("Integrating Machine Learning into a GUI with Streamlit")
-   # com.iframe("https://lottie.host/embed/1d9c7726-8312-4477-ae0b-7efc13a12654/WKcl6YhXxL.json")
+   
     st.title("Telco Churn Classification App :telephone:")
  
  
@@ -51,13 +50,12 @@ def Home_page():
    
  
     st.divider()
-   #  st.subheader("Author: David Zodanu")
-   #  st.markdown("""
-   #      "Welcome to My Streamlit App! :wave:
+  
  
-   #   Hi, I'm a passionate data analyst and aspiring AI expert. I specialize in leveraging data-driven solutions to uncover insights and drive impactful decisions.
-   #   I enjoy working on projects that blend analytics with real-world applications. Explore this app to learn more about my work and how I can help you unlock the potential of your data.
-   #   """ )
+    #Adding a clickable link
+    st.markdown("[Watch a Demo](https://www.youtube.com/watch?v=1nKOVQyrUqI)")
+    
+  
    
    
 # Rating the App
@@ -77,13 +75,13 @@ def Home_page():
     elif rating == "5":
         st.write("You are amazing!🎉:champagne:")
  
- 
+    st.image(r"C:\Users\JUSTINA\Documents\justina pic.jpg")
     st.divider()
    
     st.write('NEED HELP:question:')
-    st.write('Email: david.zodanu@azubiafrica.org :email:')
-   #  st.write('GitHub: https://github.com/Asi9128 :cat:')
-    st.write('LinkedIn: https://www.linkedin.com/in/david-zodanu-904751105:link:')
+    st.write('Email: justina.owusua@azubiafrica.org :email:')
+   #  st.write('GitHub: https://github.com/Justina209 :cat:')
+    st.write('LinkedIn: https://www.linkedin.com/in/justina-abena-owusua:')
     st.write('Phone: 0535560023')
  
  
