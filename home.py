@@ -4,7 +4,11 @@ import streamlit as st
 # from streamlit_lottie import st_lottie  
  
 def Home_page():
-    st.image(r"C:\Users\JUSTINA\Downloads\telco image.jpg")
+    uploaded_file = st.file_uploader(r"C:\Users\JUSTINA\Downloads\telco image.jpg")
+    
+    if uploaded_file is not None:
+    # Display the uploaded image
+     st.image(uploaded_file)
 
     st.title("Integrating Machine Learning into a GUI with Streamlit")
    
