@@ -105,7 +105,7 @@ def login_form():
     password = st.text_input("Password", type="password")
 
     if st.button("Login"):
-        if username == "admin" and password == "admin":
+        if username == "admin" and password == "password":
             st.session_state['authentication_status'] = True
             # Set flag to show balloons after login
             st.session_state['show_balloons'] = True
