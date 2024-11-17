@@ -151,7 +151,7 @@ def main():
         # Sidebar navigation options
         page = st.sidebar.selectbox(
             "Navigation",
-            ["Home 🏠", "Data 📈", "Predict 🪄", "Dashboard 📊", "History 📜"]
+            ["Home 🏠", "Data 📈", "Predict 🪄", "Dashboard 📊"]
         )
 
         # Display the selected page content
